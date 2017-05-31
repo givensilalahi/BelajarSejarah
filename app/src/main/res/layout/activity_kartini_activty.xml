@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="15dp"
-                android:text="Raden Adjeng Kartini atau sebenarnya lebih tepat disebut Raden Ayu Kartini, beliau lahir di Jepara, Jawa Tengah, 21 April 1879 dan meninggal di Rembang, Jawa Tengah, 17 September 1904 pada umur 25 tahun. R.A Kartini adalah seorang tokoh pendidikan perempuan dari suku Jawa dan Pahlawan Nasional Indonesia. Kartini dikenal sebagai pelopor kebangkitan perempuan pribumi."
+                android:text="@string/kartini"
                 android:textSize="18sp" />
 
         </LinearLayout>

@@ -1,6 +1,7 @@
 package com.example.fida.belajarsejarah;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -46,6 +47,14 @@ public class KartiniActivty extends AppCompatActivity {
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onKlikShare(){
+        Intent i = new Intent();
+        i.setAction(Intent.ACTION_SEND);
+        i.putExtra(Intent.EXTRA_TEXT, R.string.kartini);
+        i.setType("text/plain");
+        startActivity(i);
     }
 
 }
