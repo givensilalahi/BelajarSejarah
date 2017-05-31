@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Belajar Sejarah</string>
+    <string name="true_answer">Yeay! Jawaban anda benar !</string>
+    <string name="false_answer">Maaf, jawaban anda salah :( </string>
+    <string name="pertanyaan1">Siapakah bapak Proklamator?</string>
+    <string name="pertanyaan2">Habis Gelap Terbitlah Terang, di populerkan oleh?</string>
+    <string name="pertanyaan3">Kapan Hari Pendidikan Nasional?</string>
+    <string name="pertanyaan4">Kapan Hari Kartini?</string>
+    <string name="pertanyaan5">Siapakah Presiden Pertama Indonesia?</string>
+</resources>

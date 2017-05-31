@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fida.belajarsejarah.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <ImageButton
+                android:id="@+id/Soekarno"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:onClick="klikSoekarno"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_soekarno"
+                 />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/imgBtnEng"
+                android:background="@color/colorBar"
+                android:gravity="center"
+                android:text="Soekarno"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <ImageButton
+                android:id="@+id/Kartini"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:onClick="klikKartini"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_kartini"
+                />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/imgBtnEng1"
+                android:background="@color/colorBar2"
+                android:gravity="center"
+                android:text="Kartini"
+                android:textColor="@color/colorAccent2"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Ayo Mengenal Sejarah!"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <ImageButton
+                android:id="@+id/KiHajar"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:onClick="klikKiHajar"
+                android:padding="@dimen/activity_vertical_margin"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_kihajar"
+                 />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/imgBtnEng"
+                android:background="@color/colorBar3"
+                android:gravity="center"
+                android:text="Ki Hajar Dewantara"
+                android:textColor="@color/colorAccent3"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <ImageButton
+                android:id="@+id/Quiz"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:onClick="klikQuiz"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher"
+                />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/imgBtnEng1"
+                android:background="@color/colorBar4"
+                android:gravity="center"
+                android:text="Yuk Quiz"
+                android:textColor="@color/colorAccent4"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
